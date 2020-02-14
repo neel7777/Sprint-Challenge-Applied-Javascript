@@ -46,10 +46,10 @@ function cardMaker(obj) {
 }
 axios.get('https://lambda-times-backend.herokuapp.com/articles')
     .then(item => {
-        //console.log(item);
+        console.log(item);
         Object.values(item.data.articles).forEach(element => {
             element.forEach(card => {
-                console.log(card);
+                //console.log(card);
                 const enter = document.querySelector('.cards-container')
                 enter.append(cardMaker(card));
             })

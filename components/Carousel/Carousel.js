@@ -17,3 +17,36 @@
     <div class="right-button"> > </div>
   </div>
 */
+
+// function caro() {
+//     const carousel = document.createElement('div');
+//     const left = document.createElement('div');
+//     const img1 = document.createElement('img');
+//     const img2 = document.createElement('img');
+//     const img3 = document.createElement('img');
+//     const img4 = document.createElement('img');
+//     const right = document.createElement('div');
+
+
+//     carousel.textContent = 'HELLLLLLLO';
+//     img1.src = './assets/carousel/mountains.jpeg';
+//     img2.src = "./assets/carousel/computer.jpeg";
+//     img3.src = "./assets/carousel/trees.jpeg";
+//     img4.src = "./assets/carousel/turntable.jpeg";
+
+//     carousel.append(left);
+//     carousel.append(img1);
+//     carousel.append(img2);
+//     carousel.append(img3);
+//     carousel.append(img4);
+//     carousel.append(right);
+
+//     carousel.classList.add('carousel');
+//     left.classList.add('left-button');
+//     right.classList.add('right-button');
+
+//     return carousel;
+// }
+
+// const entryPoint = document.querySelector('.carousel-container');
+// entryPoint.append(caro());
